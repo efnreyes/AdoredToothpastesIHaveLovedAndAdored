@@ -14,7 +14,7 @@
 		F942DC7E199919A100CA0033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F942DC7D199919A100CA0033 /* main.m */; };
 		F942DC82199919A100CA0033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F942DC81199919A100CA0033 /* AppDelegate.m */; };
 		F942DC85199919A100CA0033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F942DC83199919A100CA0033 /* Main.storyboard */; };
-		F942DC88199919A100CA0033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F942DC87199919A100CA0033 /* ViewController.m */; };
+		F942DC88199919A100CA0033 /* AdoredToothpasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F942DC87199919A100CA0033 /* AdoredToothpasteViewController.m */; };
 		F942DC8A199919A100CA0033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F942DC89199919A100CA0033 /* Images.xcassets */; };
 		F942DC91199919A100CA0033 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F942DC90199919A100CA0033 /* XCTest.framework */; };
 		F942DC92199919A100CA0033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F942DC71199919A100CA0033 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		F942DC80199919A100CA0033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F942DC81199919A100CA0033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F942DC84199919A100CA0033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F942DC86199919A100CA0033 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F942DC87199919A100CA0033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F942DC86199919A100CA0033 /* AdoredToothpasteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdoredToothpasteViewController.h; sourceTree = "<group>"; };
+		F942DC87199919A100CA0033 /* AdoredToothpasteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdoredToothpasteViewController.m; sourceTree = "<group>"; };
 		F942DC89199919A100CA0033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F942DC8F199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToothpastesIHaveLovedAndAdoredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F942DC90199919A100CA0033 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				F942DC80199919A100CA0033 /* AppDelegate.h */,
 				F942DC81199919A100CA0033 /* AppDelegate.m */,
 				F942DC83199919A100CA0033 /* Main.storyboard */,
-				F942DC86199919A100CA0033 /* ViewController.h */,
-				F942DC87199919A100CA0033 /* ViewController.m */,
+				F942DC86199919A100CA0033 /* AdoredToothpasteViewController.h */,
+				F942DC87199919A100CA0033 /* AdoredToothpasteViewController.m */,
 				F942DC89199919A100CA0033 /* Images.xcassets */,
 				F942DC78199919A100CA0033 /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F942DC88199919A100CA0033 /* ViewController.m in Sources */,
+				F942DC88199919A100CA0033 /* AdoredToothpasteViewController.m in Sources */,
 				F942DC82199919A100CA0033 /* AppDelegate.m in Sources */,
 				F942DC7E199919A100CA0033 /* main.m in Sources */,
 			);
