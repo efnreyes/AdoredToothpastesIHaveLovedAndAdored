@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F942DC72199919A100CA0033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F942DC71199919A100CA0033 /* Foundation.framework */; };
+		F942DC74199919A100CA0033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F942DC73199919A100CA0033 /* CoreGraphics.framework */; };
+		F942DC76199919A100CA0033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F942DC75199919A100CA0033 /* UIKit.framework */; };
+		F942DC7C199919A100CA0033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F942DC7A199919A100CA0033 /* InfoPlist.strings */; };
+		F942DC7E199919A100CA0033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F942DC7D199919A100CA0033 /* main.m */; };
+		F942DC82199919A100CA0033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F942DC81199919A100CA0033 /* AppDelegate.m */; };
+		F942DC85199919A100CA0033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F942DC83199919A100CA0033 /* Main.storyboard */; };
+		F942DC88199919A100CA0033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F942DC87199919A100CA0033 /* ViewController.m */; };
+		F942DC8A199919A100CA0033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F942DC89199919A100CA0033 /* Images.xcassets */; };
+		F942DC91199919A100CA0033 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F942DC90199919A100CA0033 /* XCTest.framework */; };
+		F942DC92199919A100CA0033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F942DC71199919A100CA0033 /* Foundation.framework */; };
+		F942DC93199919A100CA0033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F942DC75199919A100CA0033 /* UIKit.framework */; };
+		F942DC9B199919A100CA0033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F942DC99199919A100CA0033 /* InfoPlist.strings */; };
+		F942DC9D199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F942DC9C199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F942DC94199919A100CA0033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F942DC66199919A100CA0033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F942DC6D199919A100CA0033;
+			remoteInfo = ToothpastesIHaveLovedAndAdored;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F942DC6E199919A100CA0033 /* ToothpastesIHaveLovedAndAdored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToothpastesIHaveLovedAndAdored.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F942DC71199919A100CA0033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F942DC73199919A100CA0033 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F942DC75199919A100CA0033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F942DC79199919A100CA0033 /* ToothpastesIHaveLovedAndAdored-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToothpastesIHaveLovedAndAdored-Info.plist"; sourceTree = "<group>"; };
+		F942DC7B199919A100CA0033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F942DC7D199919A100CA0033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F942DC7F199919A100CA0033 /* ToothpastesIHaveLovedAndAdored-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToothpastesIHaveLovedAndAdored-Prefix.pch"; sourceTree = "<group>"; };
+		F942DC80199919A100CA0033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F942DC81199919A100CA0033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F942DC84199919A100CA0033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F942DC86199919A100CA0033 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F942DC87199919A100CA0033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F942DC89199919A100CA0033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F942DC8F199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToothpastesIHaveLovedAndAdoredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F942DC90199919A100CA0033 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F942DC98199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToothpastesIHaveLovedAndAdoredTests-Info.plist"; sourceTree = "<group>"; };
+		F942DC9A199919A100CA0033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F942DC9C199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToothpastesIHaveLovedAndAdoredTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F942DC6B199919A100CA0033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942DC74199919A100CA0033 /* CoreGraphics.framework in Frameworks */,
+				F942DC76199919A100CA0033 /* UIKit.framework in Frameworks */,
+				F942DC72199919A100CA0033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942DC8C199919A100CA0033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942DC91199919A100CA0033 /* XCTest.framework in Frameworks */,
+				F942DC93199919A100CA0033 /* UIKit.framework in Frameworks */,
+				F942DC92199919A100CA0033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F942DC65199919A100CA0033 = {
+			isa = PBXGroup;
+			children = (
+				F942DC77199919A100CA0033 /* ToothpastesIHaveLovedAndAdored */,
+				F942DC96199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests */,
+				F942DC70199919A100CA0033 /* Frameworks */,
+				F942DC6F199919A100CA0033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F942DC6F199919A100CA0033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F942DC6E199919A100CA0033 /* ToothpastesIHaveLovedAndAdored.app */,
+				F942DC8F199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F942DC70199919A100CA0033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F942DC71199919A100CA0033 /* Foundation.framework */,
+				F942DC73199919A100CA0033 /* CoreGraphics.framework */,
+				F942DC75199919A100CA0033 /* UIKit.framework */,
+				F942DC90199919A100CA0033 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F942DC77199919A100CA0033 /* ToothpastesIHaveLovedAndAdored */ = {
+			isa = PBXGroup;
+			children = (
+				F942DC80199919A100CA0033 /* AppDelegate.h */,
+				F942DC81199919A100CA0033 /* AppDelegate.m */,
+				F942DC83199919A100CA0033 /* Main.storyboard */,
+				F942DC86199919A100CA0033 /* ViewController.h */,
+				F942DC87199919A100CA0033 /* ViewController.m */,
+				F942DC89199919A100CA0033 /* Images.xcassets */,
+				F942DC78199919A100CA0033 /* Supporting Files */,
+			);
+			path = ToothpastesIHaveLovedAndAdored;
+			sourceTree = "<group>";
+		};
+		F942DC78199919A100CA0033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F942DC79199919A100CA0033 /* ToothpastesIHaveLovedAndAdored-Info.plist */,
+				F942DC7A199919A100CA0033 /* InfoPlist.strings */,
+				F942DC7D199919A100CA0033 /* main.m */,
+				F942DC7F199919A100CA0033 /* ToothpastesIHaveLovedAndAdored-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F942DC96199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests */ = {
+			isa = PBXGroup;
+			children = (
+				F942DC9C199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.m */,
+				F942DC97199919A100CA0033 /* Supporting Files */,
+			);
+			path = ToothpastesIHaveLovedAndAdoredTests;
+			sourceTree = "<group>";
+		};
+		F942DC97199919A100CA0033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F942DC98199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests-Info.plist */,
+				F942DC99199919A100CA0033 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F942DC6D199919A100CA0033 /* ToothpastesIHaveLovedAndAdored */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F942DCA0199919A100CA0033 /* Build configuration list for PBXNativeTarget "ToothpastesIHaveLovedAndAdored" */;
+			buildPhases = (
+				F942DC6A199919A100CA0033 /* Sources */,
+				F942DC6B199919A100CA0033 /* Frameworks */,
+				F942DC6C199919A100CA0033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToothpastesIHaveLovedAndAdored;
+			productName = ToothpastesIHaveLovedAndAdored;
+			productReference = F942DC6E199919A100CA0033 /* ToothpastesIHaveLovedAndAdored.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F942DC8E199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F942DCA3199919A100CA0033 /* Build configuration list for PBXNativeTarget "ToothpastesIHaveLovedAndAdoredTests" */;
+			buildPhases = (
+				F942DC8B199919A100CA0033 /* Sources */,
+				F942DC8C199919A100CA0033 /* Frameworks */,
+				F942DC8D199919A100CA0033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F942DC95199919A100CA0033 /* PBXTargetDependency */,
+			);
+			name = ToothpastesIHaveLovedAndAdoredTests;
+			productName = ToothpastesIHaveLovedAndAdoredTests;
+			productReference = F942DC8F199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F942DC66199919A100CA0033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					F942DC8E199919A100CA0033 = {
+						TestTargetID = F942DC6D199919A100CA0033;
+					};
+				};
+			};
+			buildConfigurationList = F942DC69199919A100CA0033 /* Build configuration list for PBXProject "ToothpastesIHaveLovedAndAdored" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F942DC65199919A100CA0033;
+			productRefGroup = F942DC6F199919A100CA0033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F942DC6D199919A100CA0033 /* ToothpastesIHaveLovedAndAdored */,
+				F942DC8E199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F942DC6C199919A100CA0033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942DC8A199919A100CA0033 /* Images.xcassets in Resources */,
+				F942DC7C199919A100CA0033 /* InfoPlist.strings in Resources */,
+				F942DC85199919A100CA0033 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942DC8D199919A100CA0033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942DC9B199919A100CA0033 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F942DC6A199919A100CA0033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942DC88199919A100CA0033 /* ViewController.m in Sources */,
+				F942DC82199919A100CA0033 /* AppDelegate.m in Sources */,
+				F942DC7E199919A100CA0033 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F942DC8B199919A100CA0033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942DC9D199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F942DC95199919A100CA0033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F942DC6D199919A100CA0033 /* ToothpastesIHaveLovedAndAdored */;
+			targetProxy = F942DC94199919A100CA0033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F942DC7A199919A100CA0033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F942DC7B199919A100CA0033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F942DC83199919A100CA0033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F942DC84199919A100CA0033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F942DC99199919A100CA0033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F942DC9A199919A100CA0033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F942DC9E199919A100CA0033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F942DC9F199919A100CA0033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F942DCA1199919A100CA0033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Prefix.pch";
+				INFOPLIST_FILE = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F942DCA2199919A100CA0033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Prefix.pch";
+				INFOPLIST_FILE = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F942DCA4199919A100CA0033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToothpastesIHaveLovedAndAdored.app/ToothpastesIHaveLovedAndAdored";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ToothpastesIHaveLovedAndAdoredTests/ToothpastesIHaveLovedAndAdoredTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F942DCA5199919A100CA0033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToothpastesIHaveLovedAndAdored.app/ToothpastesIHaveLovedAndAdored";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToothpastesIHaveLovedAndAdored/ToothpastesIHaveLovedAndAdored-Prefix.pch";
+				INFOPLIST_FILE = "ToothpastesIHaveLovedAndAdoredTests/ToothpastesIHaveLovedAndAdoredTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F942DC69199919A100CA0033 /* Build configuration list for PBXProject "ToothpastesIHaveLovedAndAdored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F942DC9E199919A100CA0033 /* Debug */,
+				F942DC9F199919A100CA0033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F942DCA0199919A100CA0033 /* Build configuration list for PBXNativeTarget "ToothpastesIHaveLovedAndAdored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F942DCA1199919A100CA0033 /* Debug */,
+				F942DCA2199919A100CA0033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F942DCA3199919A100CA0033 /* Build configuration list for PBXNativeTarget "ToothpastesIHaveLovedAndAdoredTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F942DCA4199919A100CA0033 /* Debug */,
+				F942DCA5199919A100CA0033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F942DC66199919A100CA0033 /* Project object */;
+}
