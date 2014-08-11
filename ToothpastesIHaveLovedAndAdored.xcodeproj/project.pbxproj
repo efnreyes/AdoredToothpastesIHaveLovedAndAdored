@@ -21,6 +21,7 @@
 		F942DC93199919A100CA0033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F942DC75199919A100CA0033 /* UIKit.framework */; };
 		F942DC9B199919A100CA0033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F942DC99199919A100CA0033 /* InfoPlist.strings */; };
 		F942DC9D199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F942DC9C199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.m */; };
+		F9DA699E19991F9900FE2696 /* ToothPastesTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DA699D19991F9900FE2696 /* ToothPastesTableTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F942DC98199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToothpastesIHaveLovedAndAdoredTests-Info.plist"; sourceTree = "<group>"; };
 		F942DC9A199919A100CA0033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F942DC9C199919A100CA0033 /* ToothpastesIHaveLovedAndAdoredTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToothpastesIHaveLovedAndAdoredTests.m; sourceTree = "<group>"; };
+		F9DA699C19991F9900FE2696 /* ToothPastesTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToothPastesTableTableViewController.h; sourceTree = "<group>"; };
+		F9DA699D19991F9900FE2696 /* ToothPastesTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToothPastesTableTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				F942DC87199919A100CA0033 /* AdoredToothpasteViewController.m */,
 				F942DC89199919A100CA0033 /* Images.xcassets */,
 				F942DC78199919A100CA0033 /* Supporting Files */,
+				F9DA699C19991F9900FE2696 /* ToothPastesTableTableViewController.h */,
+				F9DA699D19991F9900FE2696 /* ToothPastesTableTableViewController.m */,
 			);
 			path = ToothpastesIHaveLovedAndAdored;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F942DC88199919A100CA0033 /* AdoredToothpasteViewController.m in Sources */,
+				F9DA699E19991F9900FE2696 /* ToothPastesTableTableViewController.m in Sources */,
 				F942DC82199919A100CA0033 /* AppDelegate.m in Sources */,
 				F942DC7E199919A100CA0033 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				F942DCA2199919A100CA0033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F942DCA3199919A100CA0033 /* Build configuration list for PBXNativeTarget "ToothpastesIHaveLovedAndAdoredTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				F942DCA5199919A100CA0033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

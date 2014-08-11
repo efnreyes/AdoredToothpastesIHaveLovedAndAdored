@@ -38,11 +38,55 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rfc-ND-sMz"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="rfc-ND-sMz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="fpa-tK-O54">
+                            <connections>
+                                <segue destination="Fix-3m-Np5" kind="push" id="MUz-HL-o7n"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="toothPastesTableView" destination="Zse-4m-w4i" id="Fx5-bm-nhT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="604" y="59"/>
+        </scene>
+        <!--Tooth Pastes Table Table View Controller - What do you Adore?-->
+        <scene sceneID="ffK-CA-qE3">
+            <objects>
+                <tableViewController id="Fix-3m-Np5" customClass="ToothPastesTableTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="FIL-EE-Eni">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="toothpasteCellID" id="pGq-GF-FUV">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pGq-GF-FUV" id="WdQ-r4-uSV">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="KYY-8y-Qt2" kind="unwind" unwindAction="unwindFromToothpasteViewController:" id="iy2-L4-tbv"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Fix-3m-Np5" id="6vh-cH-GgV"/>
+                            <outlet property="delegate" destination="Fix-3m-Np5" id="RH0-NO-SHg"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="What do you Adore?" id="ChW-QP-77U"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oxk-cj-aNQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="KYY-8y-Qt2" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1050" y="59"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JJL-gA-raQ">

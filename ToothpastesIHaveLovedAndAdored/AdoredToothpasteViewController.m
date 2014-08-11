@@ -7,9 +7,11 @@
 //
 
 #import "AdoredToothpasteViewController.h"
+#import "ToothPastesTableTableViewController.h"
 
 @interface AdoredToothpasteViewController ()<UITableViewDelegate, UITableViewDataSource>
-@property NSArray *adoredToothpastes;
+@property NSMutableArray *adoredToothpastes;
+@property (strong, nonatomic) IBOutlet UITableView *toothPastesTableView;
 @end
 
 @implementation AdoredToothpasteViewController
@@ -17,7 +19,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self load];
+    if (self.adoredToothpastes == nil) {
+        self.adoredToothpastes = [NSMutableArray new];
+    }
+}
+
+-(IBAction)unwindFromToothpasteViewController:(UIStoryboardSegue*)segue {
+    NSLog(@"Fuck Yeah!");
+    ToothPastesTableTableViewController *tvc = segue.sourceViewController;
+    NSIndexPath *indexPath;
+
+    NSString *toothpaste = [tvc adoredToothpaste];
+    [self.adoredToothpastes addObject:toothpaste];
+    indexPath = [NSIndexPath indexPathForRow:self.adoredToothpastes.count-1 inSection:0];
+    [self.toothPastesTableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    [self save];
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -30,4 +47,24 @@
     return self.adoredToothpastes.count;
 }
 
+-(NSURL *)documentsDirectory {
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSArray *directories = [fileManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
+    return directories.firstObject;
+}
+
+-(void)save {
+    NSLog(@"Saving...");
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSURL *plist = [[self documentsDirectory] URLByAppendingPathComponent:@"pastes.plist"];
+
+    [self.adoredToothpastes writeToURL:plist atomically:YES];
+    [defaults setObject:[NSDate date] forKey:@"LastSaved"];
+    [defaults synchronize];
+}
+
+-(void)load {
+    NSURL *plist = [[self documentsDirectory] URLByAppendingPathComponent:@"pastes.plist"];
+    self.adoredToothpastes = [NSMutableArray arrayWithContentsOfURL:plist];
+}
 @end
